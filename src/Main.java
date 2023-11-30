@@ -14,9 +14,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Point rectangleAFirstPoint = askForPoint("Insert first point (x,y) for Rectangle A", scanner);
-        Point rectangleASecondPoint = askForPoint("Insert second point (x,y) for Rectangle A", scanner);
+        Point rectangleASecondPoint = askForPoint("Insert second point (x,y) for Rectangle A " +
+                "(this point should be diagonal to the previous point)", scanner);
         Point rectangleBFirstPoint = askForPoint("Insert first point (x,y) for Rectangle B", scanner);
-        Point rectangleBSecondPoint = askForPoint("Insert second point (x,y) for Rectangle B", scanner);
+        Point rectangleBSecondPoint = askForPoint("Insert second point (x,y) for Rectangle B " +
+                "(this point should be diagonal to the previous point)", scanner);
         Rectangle rectangleA = new Rectangle(rectangleAFirstPoint, rectangleASecondPoint);
         Rectangle rectangleB = new Rectangle(rectangleBFirstPoint, rectangleBSecondPoint);
         RectangleOperator operator = new RectangleOperator();

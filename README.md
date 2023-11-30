@@ -13,7 +13,7 @@ Download the project and open it up in a Java IDE (IntelliJ recommended)
 Run the Main class
 
 # How to insert the two rectangles
-The command line will ask you for 2 cartesian points for each rectangle
+The command line will ask you for 2 diagonal cartesian points for each rectangle (the program will calculate the missing vertex of each rectangle)
 Example:
 ```
 Insert first point (x,y) for Rectangle A

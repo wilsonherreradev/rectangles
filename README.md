@@ -60,3 +60,6 @@ Rectangle A Line([2,2],[2,3]) is Sub-line of rectangle B Line([2,2],[2,4])
 
 Process finished with exit code 0
 ```
+
+# Unit tests
+In RectangleOperatorTest class you can find several unit tests, covering the main requirements of the exercise

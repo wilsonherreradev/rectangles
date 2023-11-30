@@ -12,15 +12,13 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        /*Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         Point rectangleAFirstPoint = askForPoint("Insert first point (x,y) for Rectangle A", scanner);
         Point rectangleASecondPoint = askForPoint("Insert second point (x,y) for Rectangle A", scanner);
         Point rectangleBFirstPoint = askForPoint("Insert first point (x,y) for Rectangle B", scanner);
         Point rectangleBSecondPoint = askForPoint("Insert second point (x,y) for Rectangle B", scanner);
         Rectangle rectangleA = new Rectangle(rectangleAFirstPoint, rectangleASecondPoint);
-        Rectangle rectangleB = new Rectangle(rectangleBFirstPoint, rectangleBSecondPoint);*/
-        Rectangle rectangleA = new Rectangle(new Point(1,1), new Point(4,5));
-        Rectangle rectangleB = new Rectangle(new Point(1,1), new Point(4,4));
+        Rectangle rectangleB = new Rectangle(rectangleBFirstPoint, rectangleBSecondPoint);
         RectangleOperator operator = new RectangleOperator();
 
         //Intersection

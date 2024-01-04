@@ -66,7 +66,7 @@ public class Main {
             point.x = Integer.parseInt(rectanglePoint.split(",")[0]);
             point.y = Integer.parseInt(rectanglePoint.split(",")[1]);
         }catch(Exception e){
-            System.out.println("Invalid point, the correct format is x,y (example: '0,0')");
+            System.out.println("Invalid point, the correct format is x,y  (example: '0,0')");
             System.exit(0);
         }
         return point;
